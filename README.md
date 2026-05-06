@@ -1,4 +1,4 @@
-# 💼 Portfólio - Maiara Silva
+# 💼 Portfólio - Maiara Nascimento
 
 ## 📌 Sobre
 
@@ -25,8 +25,8 @@ O objetivo é demonstrar minha evolução na área de tecnologia e meus conhecim
 
 ## 📬 Contato
 
-* LinkedIn: (coloque seu link aqui)
-* Email: (coloque seu email aqui)
+* LinkedIn: www.linkedin.com/in/maiara-nascimento-5083341b8
+* Email: mns.melvi@gmail.com
 
 ---
 
