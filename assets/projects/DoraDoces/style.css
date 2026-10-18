@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Forum&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+background:linear-gradient(#f5e6c8, #fdfaf6);
+font-family: "Forum", serif;
+color: #333;
+}
+
+/* HEADER */
+header {
+position: fixed;
+width: 100%;
+background: rgba(255,255,255,0.8);
+backdrop-filter: blur(10px);
+top: 0;
+z-index: 100;
+}
+
+.nav {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+padding: 15px;
+}
+
+.logo {
+width: 60px;
+}
+
+.nav a {
+text-decoration: none;
+color: #555;
+font-size: 18px;
+transition: 0.3s;
+}
+
+.nav a:hover {
+color: #cfaB33;
+}
+
+/* HOME */
+.home {
+height: 100vh;
+background: url('image/receitas.png') center/cover;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+}
+
+
+.home h1 {
+  font-family: "Playfair Display", serif;
+  color: #5a3e2b;
+  font-size: 5rem;
+  animation: respirar 4s ease-in-out infinite;
+}
+
+@keyframes respirar {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+
+.home h2 {
+   font-family: "Dancing Script", cursive;
+  color: #8b6f47;
+margin-top: 10px;
+}
+
+
+
+/* SECTIONS */
+section {
+padding: 100px 40px;
+}
+
+h3 {
+font-family: "Playfair Display", serif;
+  color: #5a3e2b;
+text-align: center;
+font-size: 2rem;
+}
+
+/* GRID */
+.container {
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+gap: 10px;
+margin-top: 30px;
+justify-content: center;
+gap: 25px;
+
+}
+
+/* CARDS */
+.card {
+background: #fff8e7;
+border: 1px solid #e0c097;
+box-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+transition: 0.3s;
+overflow: hidden;
+border-radius: 15px;
+
+}
+
+.card:hover {
+transform: translateY(-8px);
+}
+
+.card img {
+width: 100%;
+height: 220px;
+object-fit: cover;
+
+  
+
+
+
+ 
+}
+
+
+.card-info {
+padding: 15px;
+}
+
+.card-info h4 {
+  font-family: "Dancing Script", cursive;
+  color: #8b6f47;
+
+margin-bottom: 10px;
+}
+
+.card-info p {
+   font-family: "Forum", serif;
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+.card-info a {
+display: inline-block;
+padding: 8px 12px;
+background: #cfaB33;
+color: white;
+border-radius: 6px;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.card-info a:hover {
+background: #b8962c;
+}
+
+/* FOOTER */
+footer {
+text-align: center;
+padding: 20px;
+background: #f3e6c4;
+}
