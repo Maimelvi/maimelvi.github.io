@@ -289,15 +289,26 @@ p {
     transition: 0.3s ease;
 }
 
-.title-projects{
+.title-projects {
     position: relative;
-    bottom: 300px;
+    bottom: 70px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     z-index: 2;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    font-family: ;
+    font-family: "Acme", serif;
+
+    
+    -webkit-text-stroke: 0.4px #6A00FF;
+
+    
+    text-shadow:
+        0 0 2px #6A00FF,
+        0 0 3px rgba(176, 38, 255, 0.8),
+        1px 1px 2px #111827;
+
+    transition: opacity 0.3s ease;
 }
 
 
@@ -348,7 +359,10 @@ p {
 
 .portifolio-box:hover .portifolio-layer{
     transform: translateY(0);
-    background: linear-gradient(rgba(142, 69, 210, 0.67),transparent);
+    background: linear-gradient(
+        rgba(76, 29, 149, 0.96),
+        rgba(17, 24, 39, 0.94));
+
     
 }
 
@@ -360,9 +374,23 @@ p {
     
 }
 
-.tech{
-    color: rgb(48, 2, 48);
+.tech {
+    color: #ffffff;
+    font-weight: bold;
+    background: rgba(124, 58, 237, 0.35);
+    border: 1px solid #a78bfa;
+    padding: 5px 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 4px;
+    text-shadow: 0 0 8px rgba(167, 139, 250, 0.5);
+}
 
+.tech:hover {
+    background: #7c3aed;
+    border-color: #ffffff;
+    transform: translateY(-2px);
+    transition: 0.3s ease;
 }
 
 
